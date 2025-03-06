@@ -24,7 +24,7 @@ min_date = df_day['date'].min()
 max_date = df_day['date'].max()
 
 with st.sidebar:
-    st.image('..\icon\logo.png', width=200)
+    st.image('icon/logo.png', width=200)
     start_date, end_date = st.date_input(
         label='Select a date range',
         min_value=min_date,

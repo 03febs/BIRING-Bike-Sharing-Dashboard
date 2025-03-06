@@ -10,8 +10,8 @@ st.header(':bicyclist: BIRING : Bike Sharing Dashboard :bicyclist:')
 # -------------------------------
 # 1. Load Dataset (data_clean_day.csv dan data_clean_hour.csv)
 # -------------------------------
-df_day = pd.read_csv('data_clean_day.csv')
-df_hour = pd.read_csv('data_clean_hour.csv')
+df_day = pd.read_csv('dashboard/data_clean_day.csv')
+df_hour = pd.read_csv('dashboard/data_clean_hour.csv')
 
 # Konversi kolom tanggal di df_day dan df_hour
 df_day['date'] = pd.to_datetime(df_day['date'])
